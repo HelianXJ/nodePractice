@@ -1,0 +1,28 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "Use eventproxy concurrency control",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelianXJ/nodePractice.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "XJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelianXJ/nodePractice/issues"
+  },
+  "homepage": "https://github.com/HelianXJ/nodePractice",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "eventproxy": "^0.3.1",
+    "express": "^4.10.1",
+    "superagent": "^0.20.0"
+  }
+}
