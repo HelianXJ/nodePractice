@@ -1,0 +1,26 @@
+{
+  "name": "hellow",
+  "version": "1.0.0",
+  "description": "first demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelianXJ/nodePractice.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "xuejing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelianXJ/nodePractice/issues"
+  },
+  "homepage": "https://github.com/HelianXJ/nodePractice",
+  "dependencies": {
+    "express": "^4.10.1",
+    "utility": "^1.2.0"
+  }
+}

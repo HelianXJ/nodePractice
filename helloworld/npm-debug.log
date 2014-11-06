@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'init' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 silly package data undefined
+5 info init written successfully
+6 error Error: Invalid version: "1"
+6 error     at Object.module.exports.fixVersionField (c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\fixer.js:183:13)
+6 error     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\normalize.js:30:38
+6 error     at Array.forEach (native)
+6 error     at normalize (c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\node_modules\normalize-package-data\lib\normalize.js:29:15)
+6 error     at final (c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:342:33)
+6 error     at then (c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:126:33)
+6 error     at c:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:316:48
+6 error     at evalmachine.<anonymous>:207:20
+6 error     at OpenReq.Req.done (c:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:141:5)
+6 error     at OpenReq.done (c:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:61:22)
+7 error If you need help, you may report this *entire* log,
+7 error including the npm and node versions, at:
+7 error     <http://github.com/npm/npm/issues>
+8 error System Windows_NT 6.1.7600
+9 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "init"
+10 error cwd d:\nodejs\helloworld
+11 error node -v v0.10.32
+12 error npm -v 1.4.28
+13 verbose exit [ 1, true ]
