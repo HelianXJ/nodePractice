@@ -1,0 +1,26 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "text command"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelianXJ/nodePractice.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "xuejing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelianXJ/nodePractice/issues"
+  },
+  "homepage": "https://github.com/HelianXJ/nodePractice",
+  "dependencies": {
+    "express": "^4.10.1",
+    "utility": "^1.2.0"
+  }
+}
